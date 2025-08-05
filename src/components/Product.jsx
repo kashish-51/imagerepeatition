@@ -39,7 +39,7 @@ export default function Product() {
 
 useEffect(() => {
   const originalBg = document.body.style.backgroundColor;
-  document.body.style.backgroundColor = layout === 1 ? 'white' : '#111';
+  document.body.style.backgroundColor = layout === 1 ? 'maroon' : '#800000';
 
   return () => {
     document.body.style.backgroundColor = originalBg; // restore original color on unmount
